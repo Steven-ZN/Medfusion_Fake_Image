@@ -1,2 +1,6 @@
 # medfusion_fake_image
 This project adapts the MedFusion codebase with VQGAN to enhance the generation and reconstruction of BUSI ultrasound images for advanced medical image analysis.
+
+This project builds upon the *MedFusion* project codebase, adapting and modifying it specifically for the BUSI (Breast Ultrasound Image) dataset. Leveraging the Vector Quantized Generative Adversarial Network (VQGAN) architecture, the project aims to explore the potential of VQGAN for generating and reconstructing high-resolution medical images, supporting tasks in automated medical image analysis. 
+
+The BUSI dataset, which has been preprocessed into normal, benign, and malignant categories, is used for training and validation, enabling VQGAN to capture the complex structures and details within ultrasound images. Implemented with PyTorch and PyTorch Lightning, the project uses VQGAN's quantized representations to retain fine details and capture underlying patterns within the data. Custom loss functions balance reconstruction and quantization losses, enhancing both the fidelity and efficiency of generated images. Additionally, callback functions are implemented to monitor loss values in real time, allowing for dynamic adjustments to model parameters and architecture to improve training stability and output quality.
