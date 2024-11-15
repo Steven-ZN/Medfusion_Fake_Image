@@ -1,6 +1,5 @@
 
 
-```markdown
 # Medfusion Fake Image Generator
 
 **Medfusion Fake Image Generator** is a project focused on generating synthetic medical images using Variational Autoencoders (VAE) and Diffusion Models. The primary goal is to improve medical image analysis through high-quality image generation, particularly for datasets with limited data. The project includes pre-trained models, custom data processing scripts, and support for integrating new datasets.
@@ -14,7 +13,7 @@
 - **Supports 2D and 3D Data Augmentation**: Enhance your dataset with various augmentation techniques.
 - **Flexible Dataset Integration**: Easily integrate your own datasets with customizable configurations.
 
----
+
 
 ## Installation
 
@@ -34,7 +33,7 @@
    - Configure GPU and CUDA environment for faster training and inference.
    - Ensure you have at least one NVIDIA GPU with CUDA 11+ installed.
 
----
+
 
 ## Usage
 
