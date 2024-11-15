@@ -1,4 +1,4 @@
-Here's a complete README for your project:
+
 
 ```markdown
 # Medfusion Fake Image Generator
